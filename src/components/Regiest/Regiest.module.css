@@ -1,0 +1,26 @@
+/* .malk {
+    background-image: url(../../assets/girl-yellow-wall-with-shopping-bags.jpg);
+    object-fit: fill;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+
+/* .malk::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+} */
