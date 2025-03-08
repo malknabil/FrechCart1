@@ -89,7 +89,7 @@ export default function Regiest() {
 
           <div className='px-8 w-full flex flex-col items-center justify-center '>
             <div className="mb-2 w-full md:w-1/3">
-              <label htmlFor="email" value="Base input" />Your Email
+              <label htmlFor="email" />Your Email
             </div>
             <div className='md:w-1/3 w-full'>
               <TextInput id="email" type="email" name='email' value={formik.values.email} onChange={formik.handleChange} onBlur={formik.handleBlur} />
@@ -101,7 +101,7 @@ export default function Regiest() {
 
           <div className='px-8 w-full flex flex-col items-center justify-center '>
             <div className="mb-2 w-full md:w-1/3">
-              <label htmlFor="password" value="Base input" />Your Password
+              <label htmlFor="password" />Your Password
             </div>
             <div className='md:w-1/3 w-full'>
               <TextInput id="password" type="password" name='password' value={formik.values.password} onChange={formik.handleChange} onBlur={formik.handleBlur} />
@@ -113,7 +113,7 @@ export default function Regiest() {
 
           <div className='px-8 w-full flex flex-col items-center justify-center '>
             <div className="mb-2 w-full md:w-1/3">
-              <label htmlFor="rePassword" value="Base input" />Your rePassword
+              <label htmlFor="rePassword"  />Your rePassword
             </div>
             <div className='md:w-1/3 w-full'>
               <TextInput id="rePassword" type="password" name='rePassword' value={formik.values.rePassword} onChange={formik.handleChange} onBlur={formik.handleBlur} />
@@ -125,7 +125,7 @@ export default function Regiest() {
 
           <div className='px-8 w-full flex flex-col items-center justify-center'>
             <div className="mb-2 w-full md:w-1/3">
-              <label htmlFor="phone" value="Base input" />Your Phone
+              <label htmlFor="phone" />Your Phone
             </div>
             <div className='md:w-1/3 w-full'>
               <TextInput id="phone" type="tel" name='phone' value={formik.values.phone} onChange={formik.handleChange} onBlur={formik.handleBlur} />
